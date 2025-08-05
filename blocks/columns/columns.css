@@ -19,6 +19,31 @@
   display: block;
 }
 
+/* teaser styles */
+.columns.teaser {
+  margin-bottom: 32px;
+}
+.columns.teaser .button-container .button {
+  background-color: transparent;
+  padding-left: 0;
+  text-transform: uppercase;
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+.columns.teaser .button-container .button:hover {
+  text-decoration: underline;
+}
+
+.columns.teaser.brand {
+  background-color: var(--brand-grey);
+  padding: 32px;
+}
+
+.columns.teaser.brand .button-container .button {
+  color: var(--brand-link-color);
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;

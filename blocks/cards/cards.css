@@ -25,3 +25,21 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* brand styles */
+.cards.brand > ul > li {
+  border-width: 0;
+}
+
+.cards.brand .cards-card-image {
+  background-color: var(--brand-purple);
+  padding: 8px;
+}
+
+.cards.brand > ul > li img {
+  aspect-ratio: unset;
+}
+
+.cards.brand .cards-card-body {
+  text-align: center;
+}
