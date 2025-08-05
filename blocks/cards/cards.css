@@ -27,13 +27,19 @@
 }
 
 /* brand styles */
+.cards.brand {
+  margin-bottom: 32px;
+}
+
 .cards.brand > ul > li {
   border-width: 0;
 }
 
 .cards.brand .cards-card-image {
   background-color: var(--brand-purple);
-  padding: 8px;
+  padding: 32px;
+  border-radius: 50%;
+  margin: 48px;
 }
 
 .cards.brand > ul > li img {
